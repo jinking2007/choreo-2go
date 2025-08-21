@@ -11,7 +11,7 @@ const NEZHA_KEY = process.env.NEZHA_KEY || 'RDYN9bmf3d9gNe8RFI3BhyeDVFCvB4gm';  
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'ch2go.ksemo.pp.ua';      // 固定隧道域名,留空即启用临时隧道    
 const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"fa0db1c83b99c1c20faf439627737f7d","TunnelSecret":"saa0CB+S6YjXJcN323ZtELI22nmJBpkcxYO3SHZ6ywk=","TunnelID":"a1c85ce2-0eee-4652-bd1e-48e74c49aacb","Endpoint":""}';          // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id  
 const ARGO_PORT = process.env.ARGO_PORT || 8001;        // 固定隧道端口,使用token需在cloudflare后台设置和这里一致    
-const CFIP = process.env.CFIP || 'cf.877774.xyz';       // 节点优选域名或优选ip      
+const CFIP = process.env.CFIP || 'www.visa.com.sg';       // 节点优选域名或优选ip      
 const CFPORT = process.env.CFPORT || 443;               // 节点优选域名或优选ip对应的端口    
 const NAME = process.env.NAME || 'Choreo';              // 节点名称   
 
